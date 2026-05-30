@@ -366,3 +366,565 @@ nav a:hover{
     }
 
 }
+/* КАТЕГОРИИ */
+
+.categories{
+    padding: 100px 80px;
+}
+
+.categories h2{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.categories-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.category-card{
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: .3s;
+}
+
+.category-card:hover{
+    transform: translateY(-10px);
+    border-color: #2563eb;
+}
+
+.category-card h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.category-card p{
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* ПОДПИСКА */
+
+.subscribe{
+    padding: 100px 80px;
+}
+
+.subscribe-content{
+
+    background: linear-gradient(
+        135deg,
+        #0b1120,
+        #1e3a8a
+    );
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    padding: 70px 40px;
+}
+
+.subscribe-content h2{
+    color: white;
+    font-size: 42px;
+
+    margin-bottom: 20px;
+}
+
+.subscribe-content p{
+    color: #cbd5e1;
+
+    max-width: 700px;
+
+    margin: 0 auto 40px;
+
+    line-height: 1.8;
+}
+
+.subscribe-button{
+    display: inline-block;
+
+    padding: 18px 40px;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 12px;
+
+    transition: .3s;
+}
+
+.subscribe-button:hover{
+    background: #1d4ed8;
+}
+
+/* FOOTER */
+
+footer{
+    background: #0b1120;
+
+    border-top: 1px solid #1e293b;
+
+    margin-top: 100px;
+}
+
+.footer-content{
+    padding: 50px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.footer-logo{
+    color: white;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-logo span{
+    color: #2563eb;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    color: #94a3b8;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #2563eb;
+}
+
+.footer-text{
+    color: #94a3b8;
+
+    max-width: 350px;
+
+    line-height: 1.6;
+}
+
+.footer-bottom{
+    text-align: center;
+
+    color: #64748b;
+
+    padding: 20px;
+
+    border-top: 1px solid #1e293b;
+}
+
+/* АДАПТИВНОСТЬ */
+
+@media(max-width: 768px){
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+
+        padding: 40px 20px;
+    }
+
+    .footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+/* POPULAR */
+
+.popular{
+    padding: 80px;
+}
+
+.popular h1{
+    color: white;
+    font-size: 60px;
+
+    margin-bottom: 50px;
+}
+
+.top-news{
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.top-card{
+    flex: 1;
+
+    min-width: 300px;
+
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+
+    padding: 30px;
+}
+
+.top-card span{
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.top-card h2{
+    color: white;
+
+    margin: 20px 0;
+}
+
+.top-card p{
+    color: #94a3b8;
+
+    line-height: 1.7;
+}
+
+/* RATING */
+
+.rating{
+    padding: 0 80px 80px;
+}
+
+.rating h2{
+    color: white;
+
+    font-size: 40px;
+
+    margin-bottom: 40px;
+}
+
+.rating-card{
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 15px;
+
+    padding: 20px 30px;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.rating-card span{
+    color: #2563eb;
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rating-card p{
+    color: white;
+    font-size: 18px;
+}
+.readers{
+    padding: 0 80px 80px;
+}
+
+.readers h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.readers-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.reader-card{
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: .3s;
+}
+
+.reader-card:hover{
+    transform: translateY(-8px);
+    border-color: #2563eb;
+}
+
+.reader-card h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.reader-card p{
+    color: #94a3b8;
+}
+.achievements{
+    padding: 80px;
+
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    gap: 30px;
+
+    text-align: center;
+}
+
+.achievement h3{
+    color: #2563eb;
+    font-size: 50px;
+}
+
+.achievement p{
+    color: white;
+    margin-top: 10px;
+}
+
+/* CONTACTS */
+
+.contacts{
+    padding: 80px;
+}
+
+.contacts h1{
+    color: white;
+    font-size: 60px;
+
+    margin-bottom: 15px;
+}
+
+.contacts-subtitle{
+    color: #94a3b8;
+
+    margin-bottom: 50px;
+}
+
+.contacts-container{
+    display: flex;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-card{
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+}
+
+.contact-card h3{
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.contact-card p{
+    color: #94a3b8;
+}
+
+.contact-form{
+    flex: 1;
+    min-width: 300px;
+
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+
+    padding: 30px;
+}
+
+.contact-form h2{
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    background: #111827;
+
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+
+    padding: 15px;
+
+    color: white;
+}
+
+.contact-form textarea{
+    height: 150px;
+    resize: none;
+}
+
+.contact-form button{
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 15px;
+
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: #1d4ed8;
+}
+
+/* MAP */
+
+.map{
+    padding: 0 80px 80px;
+}
+
+.map h2{
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.map-placeholder{
+    height: 420px;
+    width: 580px;
+
+    background: #0b1120;
+
+    border: 3px solid #1e293b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #94a3b8;
+}
+
+.subscribe-page{
+
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.subscribe-box{
+
+    width: 100%;
+    max-width: 700px;
+
+    background: #0b1120;
+
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+
+    padding: 40px;
+}
+
+.subscribe-box h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.subscribe-box p{
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.subscribe-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subscribe-box input,
+.subscribe-box select{
+
+    padding: 15px;
+
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+
+    background: #111827;
+    color: white;
+}
+
+.subscribe-box button{
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+.subscribe-box button:hover{
+    background: #1d4ed8;
+}
+
+.success-message{
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    background: rgba(37,99,235,0.15);
+
+    color: #60a5fa;
+}
